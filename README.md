@@ -1,9 +1,8 @@
 # webkit-sass-float-grid
 > Grid implement by float
 
-## resources:
-+ https://github.com/afeiship/generator-webkit-sassui
-+ https://purecss.io/grids/
+## demo:
++ https://afeiship.github.io/webkit-sass-float-grid/
 
 ## usage:
 ```scss
@@ -18,3 +17,7 @@ $inGridResponsive:(
 
 @include webkit-sass-float-grid($inGridResponsive, $inGridCount: 24, $inGridPrefix:'.g');
 ```
+
+## resources:
++ https://github.com/afeiship/generator-webkit-sassui
++ https://purecss.io/grids/
