@@ -3,6 +3,7 @@
 
 ## resources:
 + https://github.com/afeiship/generator-webkit-sassui
++ https://purecss.io/grids/
 
 ## usage:
 ```scss
