@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,45 @@
   <title>webkit-sass-float-grid</title>
   <link rel="stylesheet" href="./test.css">
 </head>
-<body>
 
+<body>
+  <div class="wrapper">
+    <h3>normal grid</h3>
+    <section class="g-row test-webkit-sass-float-grid">
+      <div class="g-span-8">
+        <div class="item">item</div>
+      </div>
+      <div class="g-span-8">
+        <div class="item">item</div>
+      </div>
+      <div class="g-span-8">
+        <div class="item">item</div>
+      </div>
+    </section>
+
+
+    <h3>responsive grid</h3>
+    <section class="g-row test-webkit-sass-float-grid">
+      <div class="g-sm-24 g-md-8 g-lg-6 g-xl-4">
+        <div class="item">item</div>
+      </div>
+      <div class="g-sm-24 g-md-8 g-lg-6 g-xl-4">
+        <div class="item">item</div>
+      </div>
+      <div class="g-sm-24 g-md-8 g-lg-6 g-xl-4">
+        <div class="item">item</div>
+      </div>
+      <div class="g-sm-24 g-md-8 g-lg-6 g-xl-4">
+        <div class="item">item</div>
+      </div>
+      <div class="g-sm-24 g-md-8 g-lg-6 g-xl-4">
+        <div class="item">item</div>
+      </div>
+      <div class="g-sm-24 g-md-8 g-lg-6 g-xl-4">
+        <div class="item">item</div>
+      </div>
+    </section>
+  </div>
 </body>
+
 </html>

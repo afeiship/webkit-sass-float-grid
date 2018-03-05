@@ -1,4 +1,30 @@
 @import "../dist/webkit-sass-float-grid.scss";
+
+$inGridResponsive:(
+  span: auto,
+  sm:320px,
+  md:768px,
+  lg:1024px,
+  xl:1280px,
+)!default;
+
+@include webkit-sass-float-grid($inGridResponsive, $inGridCount: 24, $inGridPrefix:'.g');
+.wrapper{
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid salmon;
+}
 .test-webkit-sass-float-grid{
-  border:1px solid red;
+  margin-left:-10px;
+  margin-right:-10px;
+  margin-bottom: 20px;;
+  .item {
+    background: #eee;
+    min-height: 50px;
+    margin-bottom: 4px;
+  }
+}
+.test-webkit-sass-float-grid>*{
+  padding-left:10px;
+  padding-right:10px;
 }

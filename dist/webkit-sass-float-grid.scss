@@ -6,6 +6,11 @@
     > * {
       float: left;
     }
+
+    &,
+    > * {
+      box-sizing: border-box;
+    }
   }
 
   @each $key,$value in $inGridResponsive{
