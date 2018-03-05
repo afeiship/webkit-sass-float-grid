@@ -8,14 +8,14 @@
 ```scss
 @import 'node_modules/webkit-sass-float-grid/dist/webkit-sass-float-grid.scss';
 
-$inGridResponsive:(
+$grid-responsive:(
   span: auto,
   sm:567px,
   md:767px,
   lg:1023px,
 )!default;
 
-@include webkit-sass-float-grid($inGridResponsive, $inGridCount: 24, $inGridPrefix:'.g');
+@include webkit-sass-float-grid($grid-responsive, $inGridCount: 24, $inGridPrefix:'.g');
 ```
 
 ## resources:
