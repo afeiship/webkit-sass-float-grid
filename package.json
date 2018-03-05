@@ -1,0 +1,26 @@
+{
+  "name": "webkit-sass-float-grid",
+  "version": "0.0.0",
+  "description": "Grid implement by float",
+  "homepage": "https://github.com/afeiship/webkit-sass-float-grid",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "build": "gulp"
+  },
+  "main": "dist/webkit-sass-float-grid.scss",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "yargs": "^4.7.1"
+  },
+  "dependencies": {
+    "webkit-sass-mixins": "github:afeiship/webkit-sass-mixins"
+  }
+}

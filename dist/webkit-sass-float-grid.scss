@@ -1,0 +1,16 @@
+/*webkit-sass-float-grid Start*/
+@import 'node_modules/webkit-sass-mixins/dist/webkit-sass-mixins.scss';
+@mixin webkit-sass-float-grid($inGridResponsive, $inGridCount: 24, $inGridPrefix:'.g' ){
+  #{$inGridPrefix}-row{
+    @include mini-clearfix;
+    > * {
+      float: left;
+    }
+  }
+
+  @each $key,$value in $inGridResponsive{
+    @include grid($inGridPrefix, $inGridCount, $key, $value);
+  }
+}
+
+/*webkit-sass-float-grid End*/

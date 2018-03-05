@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sass-float-grid",
+  "description": "Grid implement by float",
+  "main": [
+    "dist/webkit-sass-float-grid.css",
+    "dist/webkit-sass-float-grid.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "float-grid"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
